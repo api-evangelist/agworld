@@ -1,0 +1,102 @@
+aid: agworld
+url: https://raw.githubusercontent.com/api-evangelist/agworld/refs/heads/main/apis.yml
+name: Agworld
+kind: company
+description: >-
+  Agworld is a collaborative farm-management platform - now part of the Semios
+  Group and majority-owned by Telus Agriculture & Consumer Goods - used by
+  growers, agronomists, and ag retailers to plan, schedule, record, and report
+  on field activities. The product surface covers planning, scheduling,
+  precision spray records, agronomic and financial insights, and compliance
+  reporting. Agworld integrates with John Deere, Climate-style monitor data
+  via Agworld DBX, plus Figured, PowerBI, Shed, CalAg, Frames, CART by
+  FarmReady, and Mobble. The companion DBX product is a label, manufacturer,
+  ingredient, and pest database (Greenbook). Agworld does not publish an
+  open public developer portal; partner integrations are arranged through
+  their team.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Agriculture
+  - AgTech
+  - Farm Management
+  - Compliance
+  - Agronomy
+  - Telus
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis:
+  - aid: agworld:platform
+    name: Agworld Farm Management Platform
+    description: >-
+      Cloud farm-management platform for growers, agronomists, and ag retailers.
+      Covers the Agworld Basics core, Planning, Scheduling, Precision (spray
+      records), Insights (financial and agronomic), and Compliance modules.
+      Delivered as a web and mobile app rather than a public API.
+    humanURL: https://www.agworld.com/
+    baseURL: https://my.agworld.com/
+    tags:
+      - Farm Management
+      - Web App
+      - Mobile App
+    properties:
+      - type: Information
+        url: https://www.agworld.com/
+      - type: HelpCenter
+        url: https://help.agworld.com/en/
+  - aid: agworld:dbx
+    name: Agworld DBX (Greenbook)
+    description: >-
+      Label, manufacturer, ingredient, and pest database powering product
+      selection and compliance inside Agworld. Distributed publicly as the
+      Greenbook product-label search database.
+    humanURL: https://greenbook.net
+    baseURL: https://greenbook.net
+    tags:
+      - Database
+      - Labels
+      - Compliance
+    properties:
+      - type: Information
+        url: https://greenbook.net
+  - aid: agworld:integrations
+    name: Agworld Integrations
+    description: >-
+      Direct integrations with farm-equipment, weather, finance, BI, and
+      compliance systems - including John Deere, Davis Weather Station, PIPA,
+      Mobble, Shed, FSA Field Data, Figured, PowerBI, CalAg, Frames, and CART
+      by FarmReady. Listed publicly without a corresponding open developer
+      portal.
+    humanURL: https://help.agworld.com/en/
+    baseURL: https://help.agworld.com/en/
+    tags:
+      - Integrations
+      - Partners
+    properties:
+      - type: Information
+        url: https://help.agworld.com/en/
+common:
+  - type: Website
+    url: https://www.agworld.com/
+  - type: HelpCenter
+    url: https://help.agworld.com/en/
+  - type: Contact
+    url: https://agworld.com/us/contact
+  - type: Parent
+    url: https://www.telus.com/en/agriculture
+integrations:
+  - name: John Deere
+  - name: Climate FieldView
+  - name: Davis Weather Station
+  - name: PIPA
+  - name: Mobble
+  - name: Shed
+  - name: FSA
+  - name: Figured
+  - name: PowerBI
+  - name: CalAg
+  - name: Frames
+  - name: CART by FarmReady
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
