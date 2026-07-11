@@ -76,6 +76,10 @@ apis:
       - type: Information
         url: https://help.agworld.com/en/
 common:
+  - type: DomainSecurity
+    url: security/agworld-domain-security.yml
+  - url: https://www.agworld.com/us/blog/
+    type: Blog
   - type: Website
     url: https://www.agworld.com/
   - type: HelpCenter
