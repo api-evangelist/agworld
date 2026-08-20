@@ -82,6 +82,9 @@ apis:
     humanURL: https://help.agworld.com/en/
     baseURL: https://help.agworld.com/en/
     tags:
+      - Integration
+      - Partners
+    tags_raw:
       - Integrations
       - Partners
     properties:
