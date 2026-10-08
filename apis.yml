@@ -102,6 +102,12 @@ apis:
       - type: Information
         url: https://help.agworld.com/en/
 common:
+  - type: Plans
+    url: plans/agworld-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/agworld-rate-limits.yml
+  - type: FinOps
+    url: finops/agworld-finops.yml
   - type: DomainSecurity
     url: security/agworld-domain-security.yml
   - url: https://www.agworld.com/us/blog/
