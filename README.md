@@ -1,4 +1,4 @@
-# agworld
+# Agworld
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,104 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Agworld — farm management software for growers + agronomists (Telus)
+Agworld is a collaborative farm-management platform - now part of the Semios Group and majority-owned by Telus Agriculture & Consumer Goods - used by growers, agronomists, and ag retailers to plan, schedule, record, and report on field activities. The product surface covers planning, scheduling, precision spray records, agronomic and financial insights, and compliance reporting. Agworld integrates with John Deere, Climate-style monitor data via Agworld DBX, plus Figured, PowerBI, Shed, CalAg, Frames, CART by FarmReady, and Mobble. The companion DBX product is a label, manufacturer, ingredient, and pest database (Greenbook). Agworld does not publish an open public developer portal; partner integrations are arranged through their team.
+
+**Areas:** Agriculture · AgTech · Farm Management · Compliance · Agronomy · Telus
+
+## Agworld on APIs.io
+
+Everything profiled for Agworld is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/agworld/](https://apis.io/providers/agworld/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [Agworld Farm Management Platform](https://apis.io/apis/agworld/platform/) — Cloud farm-management platform for growers, agronomists, and ag retailers. Covers the Agworld Basics core, Planning, Scheduling, Precision (spray records),…
+- [Agworld DBX (Greenbook)](https://apis.io/apis/agworld/dbx/) — Label, manufacturer, ingredient, and pest database powering product selection and compliance inside Agworld. Distributed publicly as the Greenbook…
+- [Agworld Integrations](https://apis.io/apis/agworld/integrations/) — Direct integrations with farm-equipment, weather, finance, BI, and compliance systems - including John Deere, Davis Weather Station, PIPA, Mobble, Shed, FSA…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Agworld Domain Security](https://apis.io/security/agworld/agworld-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Agworld Plans Pricing](https://apis.io/plans/agworld/agworld-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Agworld Rate Limits](https://apis.io/rate-limits/agworld/agworld-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Agworld Finops](https://apis.io/finops/agworld/agworld-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.agworld.com/)
+- [Blog](https://www.agworld.com/us/blog/)
+
+## API Evangelist rating
+
+**Kin Score 8.9** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 71.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 5.3 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/agworld/](https://apis.io/providers/agworld/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Agworld: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/agworld/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
