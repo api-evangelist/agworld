@@ -111,11 +111,15 @@ What the API costs to run, by operation.
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.agworld.com/)
+- [Documentation](https://help.agworld.com/)
+- [Pricing](https://www.agworld.com/pricing)
+- [Changelog](https://www.agworld.com/resources/whats-new)
 - [Blog](https://www.agworld.com/us/blog/)
+- [Privacy policy](https://www.agworld.com/privacy)
 
 ## API Evangelist rating
 
-**Kin Score 8.9** — minimal · rubric 0.24.0 · scored 2026-10-17
+**Kin Score 8.9** — minimal · rubric 0.25.0 · scored 2026-10-23
 
 | Facet | Score |
 |---|---|
@@ -149,6 +153,8 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Protected Resource Metadata | — |
 | Dynamic Client Registration | — |
 | Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
 
 **Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
 
